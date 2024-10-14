@@ -19,25 +19,23 @@ header {
     margin: 20px 0;
 }
 
-/* Font settings and text stroke for all headings */
 h1, h2, h3 {
     font-family: "sneakers-pro", sans-serif;
     font-weight: 500;
     font-style: normal;
     text-transform: uppercase;
     color: #231942;
-    -webkit-text-stroke: 2px rgb(255, 255, 255); /* Add stroke to text */
+    -webkit-text-stroke: 2px rgb(255, 255, 255); 
     position: relative;
 }
 
-/* Main heading (h1) stays on one line and overflows horizontally */
 h1 {
     font-size: 10vh;
     height: 13vh;
-    white-space: nowrap; /* Prevents text from wrapping */
-    overflow-x: hidden; /* Prevents horizontal scrollbars */
-    width: max-content; /* Expands the width to fit all text */
-    left: 0; /* Initial horizontal position */
+    white-space: nowrap; 
+    overflow-x: hidden;
+    width: max-content;
+    left: 0; 
     transition: left 0.01s ease;
     margin: 50px;
     display: inline-block;
@@ -45,41 +43,34 @@ h1 {
 }
 
 h1 span {
-    display: inline-block; /* Allows each letter to be rotated independently */
-    transition: transform 0.5s ease-out; /* Smooth transition for rotation */
-    color: inherit; /* Ensure color is inherited */
+    display: inline-block; 
+    color: inherit; 
 }
 
-/* Subheading (h2) settings */
 h2 {
     font-size: 5vh;
 }
 
-/* Additional heading (h3) can wrap onto multiple lines */
 h3 {
     font-size: 10vh;
     height: 13vh;
     text-align: center;
     margin: 50px;
     transition: left 0.1s ease;
-    /* No need for white-space or overflow properties here */
 }
 
-/* Brief text with smaller font and subtle stroke */
 .brief {
     font-size: 3vh;
     color: #231942;
     -webkit-text-stroke: 0.5px rgb(255, 255, 255);
 }
 
-/* Link styles */
 a {
     text-decoration: none;
     text-transform: lowercase;
     color: #231942;
 }
 
-/* Project grid styling */
 #projects-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
@@ -107,7 +98,6 @@ a {
     margin-bottom: 15px;
 }
 
-/* Button styles for links within projects */
 .project a {
     display: inline-block;
     background-color: #007BFF;

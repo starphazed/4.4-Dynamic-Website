@@ -1,4 +1,4 @@
-// Function to render projects
+
 function renderProjects(projects) {
     const container = document.getElementById('projects-container');
     
@@ -18,7 +18,6 @@ function renderProjects(projects) {
     });
 }
 
-// Fetch the JSON file and render the projects
 fetch('objects.json')
     .then(response => response.json())
     .then(data => {
@@ -28,63 +27,49 @@ fetch('objects.json')
         console.error('Error loading JSON:', error);
     });
 
-// Get the text element (h1) and split the text into span elements
 const textElement = document.querySelector('h1');
 const text = textElement.innerText;
 
 textElement.innerHTML = text.split('').map(letter => {
     if (letter === ' ') {
-        return `<span>&nbsp;</span>`; // Add a non-breaking space for actual spaces
+        return `<span>&nbsp;</span>`; 
     } else {
         return `<span>${letter}</span>`;
     }
 }).join('');
 
-// Get all span elements (each letter)
 const letters = textElement.querySelectorAll('span');
 
-// Variable to track the mouse timeout
 let mouseMoveTimeout;
-let previousMouseX = 0; // To track the previous mouse X position
+let previousMouseX = 0; 
 
 const textWidth = textElement.offsetWidth;
 const viewportWidth = window.innerWidth;
 
-// Function to reset letter rotations
 const resetRotations = () => {
     letters.forEach(letter => {
-        letter.style.transform = 'rotate(0deg)'; // Reset to normal
+        letter.style.transform = 'rotate(0deg)'; 
     });
 };
 
-// Listen for mouse move event
 window.addEventListener('mousemove', (e) => {
-    // Get the current mouse's X position (horizontal position)
     let currentMouseX = e.clientX;
 
-    // Move the entire h1 text horizontally based on mouseX position
-    // Ensure the text moves fully across the viewport by adjusting the multiplier
     let maxScrollDistance = textWidth - viewportWidth;
     let scrollAmount = (currentMouseX / viewportWidth) * maxScrollDistance;
 
-    textElement.style.transform = `translateX(${-scrollAmount}px)`; // Move the text horizontally
+    textElement.style.transform = `translateX(${-scrollAmount}px)`; 
 
-    // Calculate a tilt value for each letter, based on mouse position and direction
-    let mouseDirection = currentMouseX > previousMouseX ? 1 : -1; // Determine direction of movement
+    let mouseDirection = currentMouseX > previousMouseX ? 1 : -1;
     letters.forEach((letter) => {
-        // Calculate rotation angle based on direction of movement
-        let rotation = mouseDirection * ((currentMouseX / viewportWidth) * 10 - 10); // Range [-10, 10] degrees
+        let rotation = mouseDirection * ((currentMouseX / viewportWidth) * 10 - 10); 
 
-        // Apply the rotation to each individual letter (span)
         letter.style.transform = `rotate(${rotation}deg)`;
     });
 
-    // Update previous mouse X position
     previousMouseX = currentMouseX;
 
-    // Clear the previous timeout
     clearTimeout(mouseMoveTimeout);
 
-    // Set a new timeout to reset the rotations after 500ms of no mouse movement
     mouseMoveTimeout = setTimeout(resetRotations, 100);
 });
