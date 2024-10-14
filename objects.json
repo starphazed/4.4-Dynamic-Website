@@ -1,0 +1,274 @@
+{
+    "name": "Mansi",
+    "title": "Multidisciplinary Design Student",
+    "university": "The New School",
+    "contactInfo": {
+        "email": "mansi.bana@gmail.com"
+    },
+    "skills": [
+        {
+            "category": "Programming & Web Development",
+            "skills": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ]
+        },
+        {
+            "category": "3D Modeling & Mixed Reality",
+            "skills": [
+                "Blender",
+                "Maya",
+                "Unity",
+                "Adobe Aero"
+            ]
+        },
+        {
+            "category": "Motion Graphics & Visual Design",
+            "skills": [
+                "Motion Graphics",
+                "Graphic Design",
+                "Adobe AfterEffects",
+                "Adobe Photoshop",
+                "Adobe Illustrator",
+                "Adobe InDesign"
+            ]
+        },
+        {
+            "category": "Artistic Skills",
+            "skills": [
+                "Acrylic Painting",
+                "Gouache Painting",
+                "Drawing",
+                "Embroidery"
+            ]
+        },
+        {
+            "category": "Generative Art & Machine Learning",
+            "skills": [
+                "Stable Diffusion",
+                "TouchDesigner"
+            ]
+        },
+        {
+            "category": "Other Skills",
+            "skills": [
+                "Other random skills",
+                "Having existential crises"
+            ]
+        }
+    ],
+    "mediums": [
+        "Physical",
+        "Digital",
+        "Web",
+        "Print",
+        "Video"
+    ],
+    "projects": [
+        {
+            "title": "Data Driven Tarot",
+            "description": "A Tarot Deck that explores our relationship with our data online and the insights it may or may not provide.",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "Adobe Photoshop",
+                "Adobe Illustrator",
+                "Stable Diffusion",
+                "Other random skills",
+                "Having existential crises"
+            ],
+            "type": [
+                "Physical",
+                "Digital",
+                "Print",
+                "Web"
+            ],
+            "link": "https://starphazed.github.io/Data-Driven-Tarot/",
+            "year": 2024,
+            "isInteractive": true,
+            "image": "https://example.com/images/data-driven-tarot.jpg"
+        },
+        {
+            "title": "TouchDesigner Music Visualizer",
+            "description": "An interactive visualizer created using TouchDesigner to react to music inputs. The visualizer generates dynamic, real-time graphics based on sound frequencies, providing an immersive audiovisual experience. The project involved 3D modeling and experimenting with the visual elements using Blender and TouchDesigner.",
+            "technologies": [
+                "TouchDesigner",
+                "Blender",
+                "Other random skills"
+            ],
+            "type": [
+                "Digital",
+                "Video",
+                "Having existential crises"
+            ],
+            "link": "",
+            "year": 2023,
+            "isInteractive": true,
+            "image": "https://example.com/images/touchdesigner-visualizer.jpg"
+        },
+        {
+            "title": "Experimental Lyric Video",
+            "description": "My very first project experimenting with motion and type.",
+            "technologies": [
+                "Motion Graphics",
+                "Graphic Design",
+                "Adobe AfterEffects",
+                "Having existential crises"
+            ],
+            "type": [
+                "Digital",
+                "Video"
+            ],
+            "link": "",
+            "year": 2024,
+            "isInteractive": false,
+            "image": "https://example.com/images/lyric-video.jpg"
+        },
+        {
+            "title": "Motion Posters",
+            "description": "Moving Digital Posters based on episode 1 of John Berger's Ways of Seeing.",
+            "technologies": [
+                "Motion Graphics",
+                "Graphic Design",
+                "Adobe Photoshop",
+                "Adobe AfterEffects"
+            ],
+            "type": [
+                "Digital",
+                "Video"
+            ],
+            "link": "",
+            "year": 2024,
+            "isInteractive": false,
+            "image": "https://example.com/images/motion-posters.jpg"
+        },
+        {
+            "title": "DreamScape",
+            "description": "Don't ask questions, just read the TOS and Privacy Policy.",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "Other random skills",
+                "Having existential crises"
+            ],
+            "type": [
+                "Web",
+                "Digital"
+            ],
+            "link": "",
+            "year": 2023,
+            "isInteractive": true,
+            "image": "https://example.com/images/dreamscape.jpg"
+        },
+        {
+            "title": "Record Album Reimagined",
+            "description": "1980s psychedelia inspired redo of Lana Del Rey's album Born to Die.",
+            "technologies": [
+                "Graphic Design",
+                "Adobe Photoshop",
+                "Adobe Illustrator",
+                "Drawing",
+                "Other random skills",
+                "Having existential crises"
+            ],
+            "type": [
+                "Digital",
+                "Physical",
+                "Print"
+            ],
+            "link": "",
+            "year": 2023,
+            "isInteractive": false,
+            "image": "https://example.com/images/record-album-reimagined.jpg"
+        },
+        {
+            "title": "Book Cover Reimagined",
+            "description": "Two book covers designed for the book Project Hail Mary by Andy Weir.",
+            "technologies": [
+                "Graphic Design",
+                "Adobe Photoshop",
+                "Adobe Illustrator",
+                "Drawing",
+                "Other random skills",
+                "Having existential crises"
+            ],
+            "type": [
+                "Digital",
+                "Physical",
+                "Print"
+            ],
+            "link": "",
+            "year": 2023,
+            "isInteractive": false,
+            "image": "https://example.com/images/book-cover-reimagined.jpg"
+        },
+        {
+            "title": "Year of the Tiger/Year of the Dragon",
+            "description": "Two handpainted skateboard decks.",
+            "technologies": [
+                "Adobe Photoshop",
+                "Adobe Illustrator",
+                "Acrylic Painting",
+                "Drawing",
+                "Other random skills",
+                "Having existential crises"
+            ],
+            "type": [
+                "Physical"
+            ],
+            "link": "",
+            "year": [
+                2021,
+                2024
+            ],
+            "isInteractive": false,
+            "image": "https://example.com/images/year-of-the-tiger-dragon.jpg"
+        },
+        {
+            "title": "Postcard Project",
+            "description": "A series of postcards that made me fall back in love with painting again.",
+            "technologies": [
+                "Acrylic Painting",
+                "Gouache Painting",
+                "Drawing",
+                "Other random skills",
+                "Having existential crises"
+            ],
+            "type": [
+                "Physical"
+            ],
+            "link": "",
+            "year": [
+                2020,
+                2021
+            ],
+            "isInteractive": false,
+            "image": "https://example.com/images/postcard-project.jpg"
+        },
+        {
+            "title": "Blender and Mixed Reality Experimentation",
+            "description": "My experiments with mixed reality and 3D modelling.",
+            "technologies": [
+                "Blender",
+                "Unity",
+                "Adobe Aero",
+                "Other random skills",
+                "Having existential crises"
+            ],
+            "type": [
+                "Digital",
+                "Video"
+            ],
+            "link": "",
+            "year": [
+                2020,
+                2021,
+                2022,
+                2023
+            ],
+            "isInteractive": false,
+            "image": "https://example.com/images/blender-mixed-reality.jpg"
+        }
+    ]
+}
