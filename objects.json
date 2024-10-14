@@ -1,6 +1,6 @@
 {
     "name": "Mansi",
-    "title": "Multidisciplinary Design Student",
+    "title": "Confused Design Student",
     "university": "The New School",
     "contactInfo": {
         "email": "mansi.bana@gmail.com"
@@ -87,7 +87,7 @@
             "link": "https://starphazed.github.io/Data-Driven-Tarot/",
             "year": 2024,
             "isInteractive": true,
-            "image": "https://example.com/images/data-driven-tarot.jpg"
+            "image": "./assets/tarot.jpg"
         },
         {
             "title": "TouchDesigner Music Visualizer",
@@ -105,7 +105,7 @@
             "link": "",
             "year": 2023,
             "isInteractive": true,
-            "image": "https://example.com/images/touchdesigner-visualizer.jpg"
+            "image": ""
         },
         {
             "title": "Experimental Lyric Video",
@@ -123,7 +123,7 @@
             "link": "",
             "year": 2024,
             "isInteractive": false,
-            "image": "https://example.com/images/lyric-video.jpg"
+            "image": "./assets/escapism.png"
         },
         {
             "title": "Motion Posters",
@@ -141,7 +141,7 @@
             "link": "",
             "year": 2024,
             "isInteractive": false,
-            "image": "https://example.com/images/motion-posters.jpg"
+            "image": "./assets/motion.png"
         },
         {
             "title": "DreamScape",
@@ -159,7 +159,7 @@
             "link": "",
             "year": 2023,
             "isInteractive": true,
-            "image": "https://example.com/images/dreamscape.jpg"
+            "image": "./assets/dreamscape.png"
         },
         {
             "title": "Record Album Reimagined",
@@ -180,7 +180,7 @@
             "link": "",
             "year": 2023,
             "isInteractive": false,
-            "image": "https://example.com/images/record-album-reimagined.jpg"
+            "image": "./assets/album.jpg"
         },
         {
             "title": "Book Cover Reimagined",
@@ -201,7 +201,7 @@
             "link": "",
             "year": 2023,
             "isInteractive": false,
-            "image": "https://example.com/images/book-cover-reimagined.jpg"
+            "image": "./assets/book.jpg"
         },
         {
             "title": "Year of the Tiger/Year of the Dragon",

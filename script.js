@@ -1,4 +1,3 @@
-
 function renderProjects(projects) {
     const container = document.getElementById('projects-container');
     
@@ -6,11 +5,15 @@ function renderProjects(projects) {
         const projectElement = document.createElement('div');
         projectElement.classList.add('project');
 
+        const techTags = project.technologies.map(tech => `<span class="tech-tag">${tech}</span>`).join(' ');
+
         projectElement.innerHTML = `
             <img src="${project.image}" alt="${project.title}">
             <h4>${project.title} (${project.year})</h4>
             <p>${project.description}</p>
-            <p><strong>Technologies:</strong> ${project.technologies.join(', ')}</p>
+            <div class="tech-container">
+                ${techTags}
+            </div>
             ${project.link ? `<a href="${project.link}" target="_blank">View Project</a>` : ''}
         `;
 
@@ -26,6 +29,7 @@ fetch('objects.json')
     .catch(error => {
         console.error('Error loading JSON:', error);
     });
+
 
 const textElement = document.querySelector('h1');
 const text = textElement.innerText;
